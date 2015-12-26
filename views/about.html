@@ -1,0 +1,14 @@
+<h1>About</h1>
+
+<br>
+
+<ul>
+  <li ng-repeat="drink in drinks">{{drink}}</li>
+</ul>
+
+<br>
+
+<div class="form-group">
+  <input type="text" ng-model="newDrink" class="form-controll">
+  <button class="btn btn-primary" ng-click="addDrink()">Add</button>
+</div>
