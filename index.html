@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="gdgApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>GDG Angular</title>
+    
+</head>
+
+<!-- apply our angular app to our site -->
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" ui-sref="#">GDG Angular</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a ui-sref="home">Home</a></li>
+            <li><a ui-sref="about">About</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Kontent View-->
+<div class="container">
+    <div ui-view></div>
+</div>
+
+<div class="text-center">
+    <p>GDG Angular</p>
+</div>
+
+<script src="bower_components/angular/angular.js"></script>
+</body>
+</html>
+
+
+                
