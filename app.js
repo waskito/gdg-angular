@@ -1,4 +1,4 @@
-var gdgApp = angular.module('gdgApp');
+var gdgApp = angular.module('gdgApp', ['ui.router']);
 
 
 gdgApp.config(function($stateProvider, $urlRouterProvider) {
@@ -9,5 +9,5 @@ gdgApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/home',
             templateUrl: 'views/home.html'
         })
-             
+
 });
